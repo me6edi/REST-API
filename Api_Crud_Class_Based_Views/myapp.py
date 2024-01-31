@@ -22,9 +22,9 @@ def get_data(id = None):
 
 def post_data():
     data = {
-        'name':'rasel',
-        'roll': 140,
-        'city': 'hemayetpur'
+        'name':'Romin',
+        'roll': 50,
+        'city': 'Joynabari'
     }
     json_data = json.dumps(data)
 
@@ -36,10 +36,10 @@ post_data()
 
 def update_data():
     data = {
-        'id': 12,
-        'name':'Maimuna',
-        'city': 'Nobinogor',
-        'roll':105,
+        'id': 9,
+        'name':'rakib',
+        'city': 'dhaka',
+        'roll':10,
     }
     json_data = json.dumps(data)
 
@@ -51,7 +51,7 @@ def update_data():
 
 def delete_data():
     data = {
-        'id':17,
+        'id':13,
     }
 
     json_data = json.dumps(data)
