@@ -4,4 +4,4 @@ from .models import Student
 class StudnetSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
-        fields = ['id','name','roll','city']
+        fields = '__all__'
