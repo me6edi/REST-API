@@ -67,4 +67,4 @@ def delete_data():
     print(data)
 
 
-delete_data()
+# delete_data()
