@@ -1,5 +1,5 @@
 """
-WSGI config for Generic_And_Mixin project.
+WSGI config for GenericAPIView_and_Mixins project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Generic_And_Mixin.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'GenericAPIView_and_Mixins.settings')
 
 application = get_wsgi_application()
