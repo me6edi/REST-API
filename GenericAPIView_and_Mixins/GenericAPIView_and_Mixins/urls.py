@@ -28,9 +28,24 @@ urlpatterns = [
 
 
 
+    # path('studentapi/', views.LCStudentListAPI.as_view()),
+    # path('studentapi/<int:pk>', views.RUDStudentAPI.as_view()),
 
 
-    path('studentapi/', views.LCStudentListAPI.as_view()),
-    path('studentapi/<int:pk>', views.RUDStudentAPI.as_view()),
+
+
+    # path('studentapi/', views.Studentlist.as_view()),
+    # path('studentapi/', views.StudentCreate.as_view()),
+    # path('studentapi/<int:pk>', views.StudentRetrieve.as_view()),
+    # path('studentapi/<int:pk>', views.StudentUptade.as_view()),
+
+
+
+
+
+    # path('studentapi/', views.StudentListCreate.as_view()),
+    # path('studentapi/<int:pk>', views.StudentRetrieveUpdate.as_view()),
+    # path('studentapi/<int:pk>', views.StudentRetrieveDestroyAPIView.as_view()),
+    path('studentapi/<int:pk>', views.StudentRetrieveUpdateDestroyAPIView.as_view()),
 
 ]
