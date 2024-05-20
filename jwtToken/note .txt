@@ -1,0 +1,6 @@
+1.http POST http://127.0.0.1:8000/gettoken/ username="admin" password="admin"
+
+2.http POST http://127.0.0.1:8000/refreshtoken/ refresh="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE2MjExMjQxLCJpYXQiOjE3MTYyMTA5NDEsImp0aSI6ImZlMDYyNmU2OGVmNTQ4MTlhODQzN2MxM2EyY2Q5ZDNlIiwidXNlcl9pZCI6MX0.xwjaEsOE00Zb7kmX2KEfL67Zm3IcdZV76AkUa3bfHxk"
+
+3.http -f POST http://127.0.0.1:8000/studentapi/ name=Rony Roll=106 city=Borisal "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE2MjEzNDExLCJpYXQiOjE3MTYyMTMwMTcsImp0aSI6IjIyMzJlZTZhNzg5MTRhNWY5Y2NjMzczMzJiMDRiMzMzIiwidXNlcl9pZCI6MX0.-UUYveCjWYLwrDOpfxeWuM4AjWYxXPezlDDxZAaNWpc"
+
